@@ -1,0 +1,19 @@
+Everyday SQL codes
+SELECT column1 FROM table_name;
+SELECT * FROM table_name; 
+SELECT * FROM table_name ORDER BY column1 ASC;
+
+
+SELECT column1 FROM table_name WHERE column name A = XXX;
+SELECT column1, column2 FROM table_name WHERE column name = XXX AND column name B = YYY;
+SELECT column1 FROM table_name WHERE column name A LIKE 'xx%';
+SELECT column1 FROM table_name WHERE column name A LIKE 'xx%yy';
+SELECT column_name FROM table_name WHERE column_name IN (“XX”);
+
+
+SELECT COUNT (column name A) FROM table_name;
+
+UPDATE table_name SET column1 = value1 WHERE column name A = XXX;
+
+SELECT table_nameA.column1, table_nameB.columnX FROM table_nameA
+INNER JOIN table_nameB ON table_nameA.columnAA=table_nameB.columnYY;
